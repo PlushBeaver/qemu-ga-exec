@@ -31,7 +31,7 @@ def parse_options():
         "--connect", "-c", required=True, help="virtio-serial Unix socket path"
     )
     parser.add_argument(
-        "--verbose", "-v", action="count", help="increase output verbosity"
+        "--verbose", "-v", action="count", default=0, help="increase output verbosity"
     )
     parser.add_argument(
         "--env",

@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="qemu_ga_exec",
-    version="0.1",
+    version="0.2",
     scripts=["qemu-ga-exec"],
     author="Dmitry Kozlyuk",
     author_email="dmitry.kozliuk@gmail.com",
